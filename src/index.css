@@ -15,13 +15,13 @@
   --color-primary: #fc8383;
   --color-primary-varient: rgba(250, 88, 88, 0.4);
   --color-black: rgb(0, 0, 0);
-  --color-light: rbga(255, 255, 255, 0.6);
+  --color-light: rbga(2 55, 255, 255, 0.6);
 
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-md: 85%;
+  --container-width-ms: 150%;
 }
 html {
   scroll-behavior: smooth;
@@ -33,6 +33,7 @@ body {
   font-family: "Gloria Hallelujah", cursive;
   background-color: var(--color-bg);
   color: var(--color-black);
+  line-height: 1.7;
 }
 /*GENERAL STYLES*/
 
@@ -40,6 +41,7 @@ body {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
@@ -98,7 +100,7 @@ img {
 }
 
 /* MEDIA QUIRIES*/
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -106,11 +108,13 @@ img {
     margin-top: 6rem;
   }
 }
+
 /*for mobiles*/
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .container {
-    width: var(--container-width-md);
+    width: var(--container-width-ms);
+    margin-left: -2rem;
   }
   section > h2 {
     margin-top: 2rem;
