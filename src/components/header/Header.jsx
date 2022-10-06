@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocials from "./HeaderSocials";
 import Music from "../../assets/music.mp3";
@@ -19,7 +18,6 @@ const Header = () => {
             <h5>Explore with my favorate song !!! 𝄞 </h5>
           </div>
         </div>
-        <CTA />
         <HeaderSocials />
         <div className="me">
           <img src={ME} alt="me" />

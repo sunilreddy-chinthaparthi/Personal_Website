@@ -15,7 +15,7 @@ export const Nav = () => {
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className="{activeNav === '#' ? 'active' : '' }"
+        className={activeNav === "#" ? "active" : " "}
       >
         <BiHomeAlt />
       </a>
@@ -23,20 +23,32 @@ export const Nav = () => {
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
-        className="{activeNav === '#about' ? 'active' : '' }"
+        className={activeNav === "#about" ? "active" : " "}
       >
         <FaUserAstronaut />
       </a>
 
-      <a href="#projects">
+      <a
+        href="#projects"
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : " "}
+      >
         <GiBookmark />
       </a>
 
-      <a href="#services">
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : " "}
+      >
         <RiServiceLine />
       </a>
 
-      <a href="#contact">
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : " "}
+      >
         <AiOutlineMessage />
       </a>
     </nav>
