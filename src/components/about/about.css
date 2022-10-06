@@ -62,13 +62,24 @@
     width: 50%;
     margin: 2rem;
   }
+  .about__me p {
+    margin: 1rem 0 1.5rem;
+  }
 }
 
 @media (max-width: 600px) {
-  header {
-    height: 100vh;
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
   }
-  .header__socials {
-    display: none;
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__contant p {
+    margin: 1.5rem 0;
   }
 }
