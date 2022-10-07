@@ -25,7 +25,7 @@ export const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : " "}
       >
-        <FaUserAstronaut />
+        <GiBookmark />
       </a>
 
       <a
@@ -33,7 +33,7 @@ export const Nav = () => {
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : " "}
       >
-        <GiBookmark />
+        <FaUserAstronaut />
       </a>
 
       <a
