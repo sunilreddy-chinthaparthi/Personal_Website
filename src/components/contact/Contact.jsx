@@ -3,7 +3,7 @@ import "./contact.css";
 import { BiMailSend } from "react-icons/bi";
 import { GrInstagram } from "react-icons/gr";
 import { BsWhatsapp } from "react-icons/bs";
-import react, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 function Contact() {
@@ -17,17 +17,7 @@ function Contact() {
       form.current,
       "R9Ya00fRzb9a4_F54"
     );
-    e.target
-      .reset()
-
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    e.target.reset();
   };
   return (
     <section id="contact">
