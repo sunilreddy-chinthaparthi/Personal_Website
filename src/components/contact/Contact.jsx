@@ -30,15 +30,15 @@ function Contact() {
             <h4>Email</h4>
             <h5>sunilreddy.chinthaparti@gmail.com</h5>
             <a href="mailto:sunilreddy.chinthaparti@gmail.com" target="_blank">
-              Send A Message
+              <button className="btn">Send A Message</button>
             </a>
           </article>
           <article className="contact__option">
             <GrInstagram className="contact-icon" />
             <h4>Instagram</h4>
-            <h5> i_sunil_reddy</h5>
+            <h5> @ i_sunil_reddy</h5>
             <a href="https://www.instagram.com/i_sunil_reddy/" target="_blank">
-              DM in insta
+              <button className="btn">DM in insta</button>
             </a>
           </article>
 
@@ -49,7 +49,7 @@ function Contact() {
               href="https://api.whatsapp.com/send?phone+918555095589"
               target="_blank"
             >
-              Send A Message
+              <button className="btn">Send A Message</button>
             </a>
           </article>
         </div>

@@ -53,6 +53,20 @@ const projects = () => {
               <BsFillPatchCheckFill />
               <h4>PYTHON</h4>
             </article>
+            <article
+              className="
+            language"
+            >
+              <BsFillPatchCheckFill />
+              <h4>Java</h4>
+            </article>
+            <article
+              className="
+            language"
+            >
+              <BsFillPatchCheckFill />
+              <h4>MySQL</h4>
+            </article>
           </div>
         </div>
         <div className="designingAndEditing">
