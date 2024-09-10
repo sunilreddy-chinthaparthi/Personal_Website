@@ -10,97 +10,97 @@ const services = () => {
       <div className="container services__container">
         <article className="services">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>VIDEOGRAPHY</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Marriage Video</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Promotional and Marketing</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Music Videos</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Documentary Filmmaking</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Social Media Content</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Post-Production Services</p>
             </li>
           </ul>
         </article>
         {/* end of uiux design */}
         <article className="services">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>WEB DEVELOPMENT</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Web Design</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Front-End Development</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Back-End Development</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Full-Stack Development</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Performance Optimization</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Maintenance and support</p>
             </li>
           </ul>
         </article>
         {/* end of web development */}
         <article className="services">
           <div className="service__head">
-            <h3>Drawings</h3>
+            <h3>DRAWING</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Graphite Drawings</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Custom Portraits</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>3D Shading</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>People portraits</p>
             </li>{" "}
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Enhanced Depth pictures</p>
             </li>{" "}
-            <li>
+            {/* <li>
               <BsCheck className="service__list-icon" />
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
       </div>
