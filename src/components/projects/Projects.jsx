@@ -96,6 +96,14 @@ const projects = () => {
               <BsFillPatchCheckFill />
               <h4>fusion360</h4>
             </article>
+            <article className="Tools">
+              <BsFillPatchCheckFill />
+              <h4>Davinci resolve</h4>
+            </article>
+            <article className="Tools">
+              <BsFillPatchCheckFill />
+              <h4>Photoshop</h4>
+            </article>
           </div>
         </div>
       </div>
