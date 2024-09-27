@@ -7,10 +7,11 @@ import Projects from "./components/projects/Projects";
 import Services from "./components/services/Services";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-
+import Particles from "./Particles";
 const App = () => {
   return (
     <div>
+      <Particles />
       <Header />
       <Nav />
       <About />
